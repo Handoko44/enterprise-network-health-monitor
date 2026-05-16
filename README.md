@@ -32,19 +32,20 @@ Ensure your server (or LXC container) has the following installed:
 2. Clone the Repository
 Start by cloning this repository to your local machine or server:
   git clone https://github.com/Handoko44/enterprise-network-health-monitor.git
+
   cd enterprise-network-health-monitor
 
-3. Configuration
+4. Configuration
 The system uses a docker-compose.yml file to manage the services. You can verify or edit the configuration (such as timezones or ports) using:
   nano docker-compose.yml
 Note: The default Timezone is set to Asia/Makassar (using your zone)
 
-4. Deploy the Services
+5. Deploy the Services
 Launch the monitoring stack in detached mode (background):
   docker-compose up -d
 Docker will pull the necessary images and start Uptime Kuma
 
-5. Accessing the Dashboards
+6. Accessing the Dashboards
 Once the containers are running, you can access the web interfaces via your server's IP address:
 Service,  Port,  URL
 Uptime Kuma,  3001,  http://your-server-ip:3001
