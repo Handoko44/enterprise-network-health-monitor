@@ -52,6 +52,7 @@ Docker will pull the necessary images and start Uptime Kuma
 
 8. Accessing the Dashboards
 Once the containers are running, you can access the web interfaces via your server's IP address:
+
 Service,  Port,  URL.
 (Uptime Kuma,  3001,  http://your-server-ip:3001)
 (Speedtest Tracker,  8081,  http://your-server-ip:8081)
