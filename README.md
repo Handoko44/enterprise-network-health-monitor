@@ -16,7 +16,7 @@ Tools for monitoring a Home LAB Server (Self-hosted) built on Proxmox VE using D
 - **Service Alerts:** Instant notification to Telegram if the network or connection is down.
 - **Secure Remote Access:** Accessed through the Cloudflare subdomain without port forwarding.
 
-  https://monitor.profileaby.me/status/networklabs
+  Example: https://monitor.profileaby.me/status/networklabs
 
 ##  Screenshots
 ![Dashboard Monitoring](./screenshots/dashboard_main.png)
