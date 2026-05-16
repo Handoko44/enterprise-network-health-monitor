@@ -19,8 +19,8 @@ Tools for monitoring a Home LAB Server (Self-hosted) built on Proxmox VE using D
   Example: https://monitor.profileaby.me/status/networklabs
 
 ##  Screenshots
-![Dashboard Monitoring](./screenshots/dashboard_main.png)
-![Status Page](./screenshots/status_page.png)
+![Dashboard Monitoring](./dashboard_main.png)
+![Status Page](./status_page.png)
 
 ## ⚙ Installation Method
 1. Clone this repository.
