@@ -1,4 +1,4 @@
-# Enterprise Network & Infrastructure Monitoring
+# Enterprise Network & Infrastructure Monitoring with Uptime Kuma
 
 Tools for monitoring a Home LAB Server (Self-hosted) built on Proxmox VE using Docker. This system provides real-time visibility into the server's online/offline status as well as network health and performance.
 
