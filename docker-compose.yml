@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: uptime-kuma
+    restart: always
+    volumes:
+      - ./uptime-kuma-data:/app/data
+    ports:
+      - 3001:3001
+
+  speedtest-tracker:
+    image: alexjustesen/speedtest-tracker
+    container_name: speedtest-tracker
+    restart: always
+    ports:
+      - 8081:80
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Makassar
+    volumes:
+      - ./speedtest-data:/config
